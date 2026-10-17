@@ -1,0 +1,31 @@
+# --- Data (do NOT commit raw dataset files) ---
+data/
+*.csv
+*.zip
+
+# --- Model weights and run outputs (store in Google Drive instead) ---
+models/
+*.joblib
+*.keras
+*.h5
+logs/
+results/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+venv/
+.venv/
+env/
+*.egg-info/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Keep documentation figures
+!docs/figures/
+!docs/figures/*.png
