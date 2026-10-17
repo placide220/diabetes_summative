@@ -1,11 +1,5 @@
 # Predicting Diabetes Risk from Health-Survey Data: Traditional Machine Learning vs. Deep Learning
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/YOUR-REPO/blob/main/diabetes_risk_ml_dl_colab.ipynb)
-![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.16%2B-orange.svg)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3%2B-green.svg)
-![License](https://img.shields.io/badge/license-MIT-yellow.svg)
-
 Can a short health questionnaire identify who is likely to have diabetes or prediabetes, and do deep neural networks beat gradient-boosted trees on this kind of tabular data? This project answers both questions with **14 controlled experiments** on the CDC BRFSS 2015 survey (229,474 respondents after cleaning), comparing four traditional models with four Keras architectures.
 
 ## Project deliverables
