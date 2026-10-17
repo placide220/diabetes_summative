@@ -125,7 +125,7 @@ tensorboard --logdir logs/tensorboard
 
 ## Data
 
-The dataset is **not committed** to this repository, as required by the assignment. The notebook downloads it with the `ucimlrepo` package (`fetch_ucirepo(id=891)`), saves it to `data/`, and writes a zip file for the Google Drive folder. Check the [UCI dataset page](https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators) for the licence terms.
+The dataset is **not committed** to this repository. The notebook downloads it with the `ucimlrepo` package (`fetch_ucirepo(id=891)`), saves it to `data/`, and writes a zip file for the Google Drive folder. Check the [UCI dataset page](https://archive.ics.uci.edu/dataset/891/cdc+diabetes+health+indicators) for the licence terms.
 
 ## Reproducibility
 
