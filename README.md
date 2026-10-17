@@ -2,16 +2,7 @@
 
 Can a short health questionnaire identify who is likely to have diabetes or prediabetes, and do deep neural networks beat gradient-boosted trees on this kind of tabular data? This project answers both questions with **14 controlled experiments** on the CDC BRFSS 2015 survey (229,474 respondents after cleaning), comparing four traditional models with four Keras architectures.
 
-## Project deliverables
 
-| Deliverable | Link |
-|:--|:--|
-| Written report (IEEE style) | `[add link or file name]` |
-| Google Drive folder (raw dataset zip + saved model weights) | `[https://drive.google.com/drive/folders/YOUR-FOLDER-ID]` |
-| Presentation video | `[https://YOUR-VIDEO-LINK]` |
-| Notebook | [`diabetes_risk_ml_dl_colab.ipynb`](diabetes_risk_ml_dl_colab.ipynb) |
-
-> The raw dataset is **not** stored in this repository (see [Data](#data)). It is downloaded automatically by the notebook and also provided as a zip in the Drive folder above.
 
 ## Key findings
 
@@ -83,18 +74,6 @@ Test-set results (precision, recall and F1 at the validation-tuned threshold). T
 | 14 | **Keras residual + L2 (best deep)** | 0.8223 | 0.4546 | 0.4768 | 0.563 | 0.414 |
 
 Best models were selected on **validation** PR-AUC. Differences in the third decimal are within bootstrap noise (a single model's 95% CI is roughly +/-0.005).
-
-<p align="center">
-  <img src="docs/figures/Fig02_roc_pr_curves.png" width="85%" alt="ROC and precision-recall curves on the test set">
-</p>
-<p align="center">
-  <img src="docs/figures/Fig03_confusion_matrices.png" width="85%" alt="Confusion matrices for five models on the test set">
-</p>
-<p align="center">
-  <img src="docs/figures/Fig05_learning_curves_deep_learning.png" width="85%" alt="Learning curves for the four Keras models">
-</p>
-
-More figures (feature importance, threshold trade-off, bias-variance, sample-size curve) are in [`docs/figures/`](docs/figures).
 
 ## Repository structure
 
@@ -173,14 +152,4 @@ The dataset is **not committed** to this repository, as required by the assignme
 
 The full reference list is in the written report.
 
-## Acknowledgements and AI-use disclosure
 
-The dataset is the public CDC BRFSS 2015 release from UCI. No pre-trained models were used. An AI assistant (Claude, Anthropic) helped plan the experiments, write code and draft documentation; the experiments were run and the results reviewed by the author. *(Edit this statement to match what you did and what your course requires.)*
-
-## License
-
-Released under the MIT License. See [`LICENSE`](LICENSE).
-
-## Author
-
-**[Your Name]** · [Your Institution] · [your.email@example.com]
